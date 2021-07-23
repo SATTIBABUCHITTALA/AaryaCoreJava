@@ -1,0 +1,246 @@
+Conditional Statements 
+
+-----------------------------------------------
+1. if statement
+2. if-else statement
+
+if(k==5){
+
+}
+
+Iteration Conditional Statement
+
+3. while statement
+4. do-while 
+5. for statements
+
+syntax of Representing for Statement:-
+
+for(int i=0;i<20;i++){
+
+
+}
+
+Operators:-
+int a=5;
+
+a=a+1;
+
+i=5;
+i++;
+i++;
+i=i+1;
+
+some operators:-
+1. Arithemetic Operators ---+,-,*,/, %
+2. Relational Operators-----<,>,<=,>=
+int a=5;
+int b=6
+if(a<b){
+
+System.out.println("A is less than B");
+}
+
+3. Bitwise Operators
+
+010101
+int a=2;
+int b=3;
+
+a&b---a&b
+
+
+a|b
+
+
+
+10----binary
+11-----3
+
+10 ----2
+
+
+
+a|b
+
+
+
+4. Assignment Operators--- =,++,--,+=,-=
+
+int a=5;
+
+int k;
+
+k=a++;
+
+k=5
+a=6
+
+a++; ---6
+
+
+int k=++a;
+
+k=6;
+a=6;
+
+++a;---
+
+a--
+--a
+a+=5
+a=a+5;
+a-=5;
+
+Conditional Operators:-
+&&,||
+
+
+int a=5;
+int b=6
+
+if(a==5 && b==6){
+
+
+}
+if(a==5 || b==6){
+
+
+}
+--------------------------------------
+looping statements
+
+for loop 
+
+for(int i=0;i<20;i++){
+
+System.out.println("i value is"+i);
+}
+
+
+System.out.println(i);
+System.out.prinltn(i++);
+System.out.println(i++);
+
+
+----------------------------------------------
+OOPS Concepts
+----------------------------------------------
+Object Oriented Programming Language
+Student,
+Library
+College
+Bank
+System
+----------------------------------------------------------
+OOPS in java:-
+
+Class
+Object
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+Interface
+method
+
+
+-------------------------------------------------------
+
+Construtor:- It is a method which helps to allocate memory to the class
+
+------------------------------------------------------------------------
+1. 
+
+
+method/function
+
+
+
+int calculateAddition(int a, int b){
+
+System.out.println(a+b);
+
+}
+--------------------------------------------------------------------------
+class -----It is a blue print which has methods and variables.
+
+class Student{
+
+String studentId;
+String studentName;
+String gmailId;
+
+
+int getStudentResult(int studentId){
+
+
+}
+
+
+
+}
+
+Student student=new Student();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

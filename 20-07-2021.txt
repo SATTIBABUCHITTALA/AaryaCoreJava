@@ -1,0 +1,103 @@
+method
+
+//constructor
+
+
+Constructor is also a method which helps to allocate a memeory for an object.
+
+class Student{
+
+
+public Student(){
+
+}
+
+
+
+}
+//allocate a memory
+
+if i create 2 classes ---2 constructors
+
+Every class will have a constructor
+
+Types of Constructors
+
+1. Default Constructor
+2. Parameterized Constructor
+
+class Library{
+
+public Library(){
+
+
+}
+}
+2. Parameterized Constructor
+
+public Library(int bookId, String bookName){
+
+
+}
+1. Default Constructor with no arguements
+2. Parameterized Constructor with arguements
+
+//Constructor Overloading.
+public Vehicle(String vehicleId, int price){
+
+vehicleId=vehicleId
+price=price;
+
+}
+//Access Modifiers
+Access Modifiers are the key words help us to access the variables or methods 
+and restrict the Access.
+
+public 
+We have 4 types of Access Modifiers in Java
+
+1. public --- Access from same package and another package as well. whole project. 
+2. default ---- Access with in the same package only
+3. protected ---Variables will be accessed from same class and child classes as well. 
+4. private ---- Restricted from any other class.
+
+com.aarya.book
+public class Book{
+
+private String bookId;
+
+
+}
+public class Lib extends Book{
+
+}
+Book book=new Book();
+book.bookId="101F";
+
+com.aarya.library
+public class Library{
+
+String libId
+
+
+}
+Book book=new Book();
+book.bookId="123";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

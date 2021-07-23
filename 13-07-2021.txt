@@ -1,0 +1,191 @@
+conditional statement
+operators
+oops concepts
+
+13-07-2021
+------------------------------------------------------------------------
+Constructor
+Constructor over loading
+---------------------------------------------------------------------------
+
+Constructor is a method
+-------------------------------------
+what is a method/function?
+
+functions is going to do some operations and provide result.
+
+void addition(int a, int b){
+
+System.out.println("Addition of two numbers is"+(a+b));
+
+
+}
+addition(2,3);
+
+
+class :- A class is a blueprint which consists of memebers and memeber functions.
+
+Object:- An object is an instance of that class. which is used to access the 
+class members and member functions.
+
+classname objectname=new classname();
+
+Student std=new Student();
+
+Employee emp=new Employee();
+
+std.a;
+std.addition(2,3);
+
+
+//Constructor of a class
+
+Constuctor:- Constructor is special method which is used to initialize an object.
+Every class will have constructor. 
+
+class Student
+
+public Student(){
+
+
+}
+
+}
+//Method Creation in Java
+
+
+class Calculation{
+	
+int a;
+int b;
+
+void addition(int num1 ,int num2) {
+	System.out.println("Addition of given numbers is "+(num1+num2));
+}
+
+void subtraction(int num1, int num2) {
+	
+	System.out.println("Subtraction of given numbers is "+(num1-num2));
+}
+
+int multiplication(int num1, int num2) {
+	
+	return num1*num2;
+}
+
+
+
+//byte,char, int,float,double,long
+float division(float  a,float  b) {
+	
+	return a/b;
+}
+
+}
+
+
+
+
+
+
+public class MethodCreation {
+	
+	public static void main(String args[]) {
+		
+		Calculation calc=new Calculation();
+		calc.addition(25, 345);
+		
+		calc.subtraction(46, 29);
+		int result;
+		
+		result=calc.multiplication(4, 45);
+		
+		
+		 System.out.println("Multiplication is "+result);
+		 //
+		 
+		 float result1;
+		 result1=calc.division(3, 2);
+		 
+		 System.out.println("Division of two Numbers is "+result1);
+		 
+		 
+		 
+		 
+		
+	}
+
+}
+//Constructor Demo
+package com.aarya.corejava;
+
+class Student{
+	
+	String studentName;
+	
+	
+	String studentId;
+	String emailId;
+	
+	void hello() {
+		System.out.println("Hello Aarya");
+	}
+	public Student() {
+		studentName="Aarya";
+		studentId="101F";
+		emailId="Aarya.123@gmail.com";
+	}
+	@Override
+	public String toString() {
+		return "Student [Name=" + studentName + ", Id=" + studentId + ", email=" + emailId + "]";
+	}
+	
+}
+
+
+
+public class ConstructorDemo {
+
+	public static void main(String args[]) {
+		Student student=new Student();
+		
+		System.out.println(student);
+		
+		
+		
+		student.hello();
+		
+		
+		Student std=new Student();
+		
+		System.out.println("Before");
+		System.out.println(std);
+		
+		std.studentName="Satya";
+		std.studentId="102F";
+		std.emailId="Satya.123@gmail.com";
+		System.out.println("After");
+		
+		System.out.println(std);
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------

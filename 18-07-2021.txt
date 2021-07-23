@@ -1,0 +1,139 @@
+1. creating obejects
+2. creating new methods
+3. creating classes
+4. if-else statements
+5. conditions
+6. constructors
+
+
+what is a constructor?
+
+Constructor is a method which has the same name as Class. 
+
+
+class Student{
+
+public Student(){
+
+}
+
+
+
+}
+Student std=new Student();
+
+
+if i give input 5
+ Given number is odd Number.
+
+6
+givne number is even number
+
+5/2 ==1 odd number
+
+num/2==0 even number. 
+
+//
+package com.aarya.corejava;
+
+
+class StudentDetails{
+	
+	public StudentDetails() {
+		
+		System.out.println("This is a Constructor");
+		
+	}
+	
+	
+	void print_details() {
+		
+		System.out.println("Printing Details");
+	}
+	
+	
+	int calculateSquare(int num) {
+		 int result;
+		result=num*num*num; ///square of that given numebr here
+		return result;  // sending back this result to that calling method. 
+	}
+
+}
+
+
+
+
+public class ConstructorDemo {
+
+	public static void main(String args[]) {
+		
+		
+		StudentDetails std=new StudentDetails();
+		
+	int n=std.calculateSquare(78);
+		
+		System.out.println("Square of the given number is  "+n);
+		
+		
+		
+		
+	}
+	
+	
+	
+}
+//package com.aarya.corejava;
+
+
+class Calculator{
+	
+
+	int calculateSquare(int num) {
+		 int result;
+		result=num*num*num; ///square of that given numebr here
+		return result;  // sending back this result to that calling method. 
+	}
+
+}
+
+
+
+
+public class CalculatorDemo {
+
+	public static void main(String args[]) {
+		
+		
+		Calculator std=new Calculator();
+		
+	int n=std.calculateSquare(78);
+		
+		System.out.println("Square of the given number is  "+n);
+		
+		
+		
+		
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
