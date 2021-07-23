@@ -1,0 +1,54 @@
+
+//Read all these concepts again 
+1. class
+2. Object
+3. methods
+4. Constructor
+5. datatypes
+6. operators
+7. conditional statements
+if-else
+for
+while
+do-while
+
+//do some project realted to the Access Modifiers
+
+8. Access modifiers:- Access modifiers are used to define the scope of
+class members.
+
+public :- Accessable through out the project.
+default :- Accessable with in the package only not outside the package.
+ By default access modifier in java is default. 
+protected:- Accessable with in the class and child class only. 
+private:- This cant be accessble from out of the class.  
+
+Project:- Student
+
+com.aarya.studentinfo --Package 
+public class StudentInfo{
+
+protected void getStudentDetails(){
+}
+
+}
+public class StudentDetails extends StudentInfo{
+
+
+}
+
+
+com.aarya.libraryinfo ---Package 
+public class Library{
+
+public void getBookDetails(){
+
+}
+
+}
+
+
+
+
+
+9. 
