@@ -1,0 +1,109 @@
+//array
+
+
+public
+default
+protected
+and private
+
+class BankAccount{
+private String accountNumber;
+private String accountHolderName;
+private int pinNum;
+
+
+
+
+
+}
+
+class B {
+
+BankAccount  bankAccount=new BankAccount();
+bankAccount.accountNumber="1092873654576"; //1092873654578
+bankAccount.accountHolderName="SattiBabu";
+
+
+}
+//I need to check that whether that person is authorized or not ?
+i will allow him to do the changes otherwise nooooooooooooooooo
+
+
+//Program
+package com.aarya.corejava;
+
+class BankAccount{
+	
+	public String authorizedKey="143";
+	
+	private   String accountNumber;
+	
+	
+	//Encapsulation
+	public String getAccountNumber() {
+		
+		
+		return accountNumber;
+	}
+	public void setAccountNumber(String accountNumber) {
+		
+		if(authorizedKey=="143") {
+			
+			this.accountNumber = accountNumber;
+		}else {
+			System.out.println("You Dont have an  Access to \n change the Account Number");
+		}
+		
+	}
+	
+	
+	
+	public String accountHolderName;
+	public String mobileNum;
+	public int ipin;
+	public double acccountBalance;
+	
+
+}
+
+public class EncapsulationDemo {
+
+	public static void main(String args[]) {
+		
+		BankAccount bankAccount=new BankAccount();
+		
+		//direct assignment
+		bankAccount.accountHolderName="Satti Babu";
+	
+		
+		//bankAccount.accountNumber="138987979879898";
+		
+		bankAccount.authorizedKey="144";
+		
+		bankAccount.setAccountNumber("138987979879898");
+		
+		
+		System.out.println(bankAccount.getAccountNumber());
+		
+		
+		
+		//bankAccount.acccountBalance=878778.98;
+		
+		//System.out.println(bankAccount.accountHolderName);
+		//
+	}
+	
+	
+}
+//Encapsulation is one of the opps concepts which wraps the whole members into a single unit that is called a class.
+
+//wrapping up of whole members into a class.
+//by using methods only....
+
+
+
+
+
+
+
+
