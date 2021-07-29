@@ -1,0 +1,171 @@
+Inheritance:- Accessing the properties of one class in another class is called Inheritance
+
+class A{
+
+}
+
+
+class B extends A{
+
+
+}
+Types of Inheritance:-
+4 types
+1. single Inheritance 
+class B extends A{
+
+}
+2 Multilevel Inheritance
+class A{
+
+void getClass(){
+
+}
+
+}
+B--called sub class or child class 
+A -- super class or parent class
+class B extends A{
+
+}
+class C extends B{
+
+}
+
+package com.aarya.student;
+//Multi Level Inheritance
+class A{
+	
+	public void getA() {
+		System.out.println("In class A");
+	}
+	
+}
+
+class B extends A{
+	
+void getB() {
+	
+	System.out.println("IN Class B");
+}
+	
+}
+
+class C extends B{
+	
+	void getC() {
+		System.out.println("In Class C");
+	}
+}
+
+
+
+public class InheritanceDemo {
+
+	public static void main(String args[]) {
+		
+		
+		C c=new C();
+		c.getA();
+		c.getB();
+		
+		//
+		B b=new B();
+			
+	}
+	
+}
+Hierarchial Inheritance:-
+class A{
+
+
+}
+
+
+class B extends A{
+
+
+}
+class c extends A{
+
+}
+
+
+Example:_
+package com.aarya.student;
+
+public class HierarchialInherianceDemo {
+	
+	public static void main(String args[]) {
+		
+		
+		LibraryDetails lib=new LibraryDetails();
+		
+		lib.getBookDetails();
+		
+		CollegeDetails clg=new CollegeDetails();
+		clg.getCollegeInfo();
+		
+		
+	}
+	
+	
+	
+}
+
+
+//student2 class
+package com.aarya.student;
+
+public class Student2 {
+	
+	void getStudentDetails() {
+		
+		System.out.println("Student Details are forwarded!!!!!");
+	}
+
+}
+
+package com.aarya.student;
+
+public class LibraryDetails  extends Student2{
+
+	
+	void getBookDetails() {
+		
+		System.out.println("Book Details are forwarded!!!!");
+		
+		getStudentDetails();
+	}
+}
+
+package com.aarya.student;
+
+public class CollegeDetails extends Student2 {
+
+	void getCollegeInfo() {
+		
+		getStudentDetails();
+		
+		
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

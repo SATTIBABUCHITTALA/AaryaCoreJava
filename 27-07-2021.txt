@@ -1,0 +1,159 @@
+Encapsulation
+
+setters and getters
+
+
+Access Modifiers:-
+--------------------------
+1. public
+2. private:- Cant access from outside the class. 
+3. default
+4. protected
+
+
+//Security
+Now a days data-security is most important.
+//Encapsulation came into picture
+Encapsulation:- Wrapping up of members and functions into a single unit.
+
+class A{
+private int num;
+
+}
+class B{
+A a=new A();
+
+a.num=10;
+}
+
+setters and getters...
+if u want to set the value for a variable use setters . If we want to get the value of a 
+variable use getters....
+
+
+public void setValue(int num){
+
+if(authorized==1){
+this.num=num;
+}
+}
+
+public int getValue(){
+
+return this.num;
+}
+
+OOPS Concepts:-
+1. class 
+2. object
+3. method
+4. Encapsulation
+5. Inheritance
+
+
+
+//Inheritance
+
+//Aarya has created this class 
+
+class A{
+//100 lines of code 
+
+10 methods
+
+20 variables............
+
+}
+
+class B extends A{
+I want to use the same methods and variables ....
+I need to write the same code again and again....
+
+Instead of doing that i can use the methods whatever u have written.
+
+//Inheritance
+using one class members in another class is called Inheritance.
+
+
+}
+
+Accessing one class members in another class is called inheritance. 
+Redundancy will be reduced.
+
+class A{
+void getA(){
+
+}
+}
+class B extends A{
+
+}
+B b=new B();
+b.getA();
+class A is called Super class/Parent Class.
+class B is called Sub class/Child Class. 
+
+There are 4 types of Inheritance Availble in java.
+1. Single Inheritance
+2. Multi Level Inheritance
+3. Hierarchial Inheritance
+4. Multiple Inheritance
+
+class A{
+	
+	public void getA() {
+		System.out.println("In class A");
+	}
+	
+}
+
+class B extends A{
+	
+
+	
+}
+
+
+
+public class InheritanceDemo {
+
+	public static void main(String args[]) {
+		
+		
+		B b=new B();
+		b.getA();
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
