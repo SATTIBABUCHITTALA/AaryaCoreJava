@@ -1,0 +1,176 @@
+Java 
+OOPS ---Object oriented Programming Language
+
+JVM
+JRE
+JDK
+
+-----OOPs Concepts
+1. Class
+2. Object
+3. methods
+4. Operators
+5. Condtional Statements
+6. for loop
+7. While loop
+8. Naming Conventions in java
+8. Constructor
+Types of Constructors:-
+2 Types
+1. Default Constructor
+2. Parameterized Constructor
+Inheritance:- 
+Types of Inheritance:-
+1. Single Inheritance
+2. Multi Level Inheritance
+3. Hierarchial Inheritance
+4. Multiple Inheritance.
+Encapsulation:- getters and Setters
+Access Modifiers:- public, protected, private, default
+Data Types:- int,char, String, long,double
+
+We didnot discuss the Multiple Inheritance:- 
+class is accessing properties of more than one class:
+
+class A extends B,C{
+
+}
+but java doesnot support the multiple inheritance:-
+Reason is Why?
+can we have same method in two classes?
+
+yes or no? There will be an ambiguity.
+class  A{
+
+void getDetails(){
+}
+
+}
+class B{
+void getDetails(){
+}
+}
+
+class C extends A,B{
+
+}
+C c=new C();
+c.getDetails();
+Multiple Inheritanc Does not support by java. 
+Got my point?
+-------------------------------------------------------------
+Arrays
+
+Array is nothing but a datatype holding Collection of similar Data.
+
+int a;
+10,
+12,
+13
+collection of Data:- 
+
+int [10] num;
+
+Multiple Types of Arrays will be there in Java
+1. one Dimensional Array
+2. Two Dimensional Array
+
+int[X][Y] list=new int();
+X- Rows
+Y- Columns
+---It contains Homogenious Data.
+Different Data it will not allow.
+It is Static .....
+int[10] list;
+static nature. 
+
+Collections Concepts:-
+
+this key word:- It indicates current object
+
+
+
+class A{
+
+int var;
+
+
+void getVar(int var){
+
+this.var=var;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
