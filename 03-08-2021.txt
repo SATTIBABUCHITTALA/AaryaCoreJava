@@ -1,0 +1,58 @@
+Inheritance:-
+
+Single Inheritance
+
+Multi level Inheritance
+
+Hirarchial Inheritance
+
+Multiple Inheritance-- Not possible 
+
+class A extends B,C{
+
+
+}
+
+Method Overloading:-
+
+class A{
+
+void getDetails(){
+
+}
+
+void getDetails(int a){
+
+}
+
+}
+Method Over Loading:- In a class, if two or more methods have the
+ same name but differ in parameters. 
+
+Method Over Riding:-
+
+Arrays Concepts:- 
+
+
+int list=new int[10];
+String list=new String[10];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
