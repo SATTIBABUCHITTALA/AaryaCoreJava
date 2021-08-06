@@ -1,0 +1,165 @@
+---------
+Method Overriding:-
+
+Method Overloading:- In a class same method name but different parameter lis.
+
+
+
+class A{
+
+void getDetails(){
+}
+void getDetails(int id){
+
+}
+void getDetailsStudent(){
+
+}
+
+}
+class B extends A{
+
+
+void getDetails(){
+
+
+}
+
+
+}
+B b=new B();
+ b.getDetails();
+Method Overriding:- Overriding the Super class method into a subclass
+ is called method over riding.
+
+
+public, private, default, protected
+static key word:- Non Access Modifier
+
+in a college:- we might have 1000 students ----1000 Objects
+
+1 Principal
+class College{
+
+Student student;
+String principal;
+
+
+
+}
+
+class Student{
+
+String stdId; //Instance variables
+String stdName;
+String emailId;
+static String principalName; //class Variable
+}
+Student std=new Student();
+std.stdId="101";
+
+package com.aarya.staticdemo;
+
+class StudentDetails1{
+	
+	String stdId;
+	String stdName;
+	String gmailId;
+	static String principalName="Ajay";
+	
+	@Override
+	public String toString() {
+		return "StudentDetails1 [stdId=" + stdId + ", stdName=" + stdName + ", gmailId=" + gmailId + ", principalName="
+				+ principalName + "]";
+	}
+	public String getStdId() {
+		return stdId;
+	}
+	public void setStdId(String stdId) {
+		this.stdId = stdId;
+	}
+	public String getStdName() {
+		return stdName;
+	}
+	public void setStdName(String stdName) {
+		this.stdName = stdName;
+	}
+	public String getGmailId() {
+		return gmailId;
+	}
+	public void setGmailId(String gmailId) {
+		this.gmailId = gmailId;
+	}
+	public String getPrincipalName() {
+		return principalName;
+	}
+	public void setPrincipalName(String principalName) {
+		this.principalName = principalName;
+	}
+	
+	
+	
+}
+
+
+public class StaticDemo {
+
+	public static void main(String args[]) {
+		
+		StudentDetails1 std=new StudentDetails1();
+		
+		std.stdId="101";
+		std.stdName="Aarya";
+		std.gmailId="AARYA@GMAIL.COM";
+
+
+		
+StudentDetails1 std1=new StudentDetails1();
+		
+		std1.stdId="102";
+		std1.stdName="Ramya";
+		std1.gmailId="Ramya@GMAIL.COM";
+
+
+		
+StudentDetails1 std2=new StudentDetails1();
+		
+		std2.stdId="103";
+		std2.stdName="Mani";
+		std2.gmailId="Mani@GMAIL.COM";
+		
+		
+	System.out.println(std);
+	
+	System.out.println(std1);
+	System.out.println(std2);
+		
+		
+		
+		
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
