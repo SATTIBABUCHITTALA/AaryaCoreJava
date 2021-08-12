@@ -1,0 +1,128 @@
+1. What is Java? 
+2. Java Versions
+3. Java Editions
+4. Variables
+5. Naming Conventions
+6. Data Types
+7. Methods
+8. Class
+9. Objects
+10. Constructor
+11. Method
+12. Encapsulation
+13. Method Overloading
+14. Method Overriding--Polymorphism
+15. Inheritance
+16. Scanner class
+17.Constructor Overloading
+18.this keyword
+19.Getters & Setters
+20.static keyword
+21. Arrays
+22.final keyword
+
+
+23. Interface
+24. files
+25. Exception Handling
+26. Collections
+27. Thread
+28. Abstract Class
+
+--------------------------------------------------------------------
+Abstract class:- Abstract class is a class which allows 
+to declare the methods and subclass will define the method
+
+class A{
+
+void runmethod(){
+}
+
+}
+
+abstract class A{
+
+void getDetails();
+
+}
+
+
+class B extends A{
+void getDetails(){
+
+}
+
+}
+--------------------------------------------------------------
+
+abstract class Vehicle{
+	
+	int noofTyres;
+	
+	
+	abstract void getVehicleDetails() ;
+	
+	abstract String getFuelType();
+	
+	int getSpeed() {
+		return 0;
+	}	
+}
+
+class Car extends Vehicle{
+	
+	void getVehicleDetails() {
+		System.out.println("This Method provides the Car Details");
+	}
+
+	@Override
+	String getFuelType() {
+		return "Car:- Petrol";
+	}	
+}
+class Bike extends Vehicle{
+	@Override
+	String getFuelType() {
+		return "Bike:- Petrol";
+	}
+	void getVehicleDetails() {
+		System.out.println("This Method provides the Bike Details");
+	}
+	
+}
+class Lorry extends Vehicle {
+
+	@Override
+	void getVehicleDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	String getFuelType() {
+		// TODO Auto-generated method stub
+		return "Lorry:- Diesel";
+	}	
+}
+public class AbstractDemo {
+	
+	public static void main(String args[]) {
+		
+		Car car=new Car();
+		System.out.println(car.getFuelType());
+		
+		Bike bike=new Bike();
+		System.out.println(bike.getFuelType());
+		
+		Lorry lorry=new Lorry();
+		System.out.println(lorry.getFuelType());
+		
+		
+	}
+
+}
+
+
+
+
+
