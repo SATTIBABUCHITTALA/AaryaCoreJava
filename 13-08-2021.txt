@@ -1,0 +1,148 @@
+abstract class:- A class which has some abstract methods. 
+method declaration will be there but method definition will be implemented in the 
+subclasses.
+
+abstract class Student{
+
+abstarct void getDetails(); //Method Decalration
+
+
+
+}
+
+class StudentDetails extends Student{
+
+void getDetails(){ //Method Definition
+
+}
+
+
+}
+
+StudentDetails  std=new StudentDetails();
+std.getDetails();
+
+
+class B{
+void getDetails(){
+
+}
+}
+
+class C {
+
+void getDetails(){
+
+}
+}
+class A extends B,C{
+
+}
+
+A a=new A();
+a.getDetails(); 
+---------------------------------------------------------------------------
+To overcome that problem java introduces Interface concept:-
+Interface is one type of declaring methods and implementing in classes
+---------------------------------------------------------------------------
+
+abstract class Student{
+
+
+}
+
+interface StudentService{
+
+ void getDetails();
+  String getStudentName();
+ int getStudentRank();
+
+}
+
+class A extends B,C{
+
+}
+class A implements StudentService,Service2,Service3{
+
+
+}
+//common methods and keep it a 
+
+interface Service{
+void getDetails();
+void getInfoDetails();
+
+
+
+}
+class A implements Service,{
+void getDetails(){
+
+}
+
+}
+
+////////Interface
+1. Write a program using scanner class input two numbers and do all mathemetical operations
+using Encapsulation,this key word,method overloading,inheritance?
+
+package com.aarya.corejava;
+
+interface   StudentService{
+	
+ void getDetails();
+	
+}
+interface   StudentService2{
+	
+	 void getDetails();
+		
+	}
+
+class Std implements StudentService,StudentService2{
+
+	@Override
+	public void getDetails() {
+		System.out.println("Hello Aarya");
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
