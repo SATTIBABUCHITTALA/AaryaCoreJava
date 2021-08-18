@@ -1,0 +1,89 @@
+What is an interface?
+Interface is a blueprint of a class. It consists of Abstract methods. 
+
+
+
+interface InterfaceName{
+
+void getDetails();
+String getStudentName();
+
+
+}
+
+The Diffference Between Abstract class and Interface :-
+A class extends only one class but it implements one or more interfaces.
+
+class A implements interfacename,Interface2{
+
+
+}
+///////////////////////////////////////////////////////////////////////////////
+Exception Handling:- An abrupt termination of a program is called Exception. 
+1. Network issue at the time of withdrawing money. 
+
+
+
+CPU utilization is very high . At that moment System will get shutdown. it is a error.
+Error , Exceptilon Handling.
+
+Some Classes:-
+String
+Exception is a class
+ArrayList
+Integer 
+Number is a classes 
+Pre defined classes in java. 
+
+
+Exception
+
+2 types of Exceptions 
+1. Compile time exceptions; 
+2. Runtime Exceptions;
+
+
+
+javac programname.java
+it compiles convert into byte code
+
+java programname.
+
+
+
+try and catch block
+
+
+try{
+
+
+}catch(){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

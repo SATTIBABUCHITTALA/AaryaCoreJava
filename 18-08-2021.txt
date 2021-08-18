@@ -1,0 +1,31 @@
+package com.sattibabu.corejava;
+
+abstract class StudentCls{
+	abstract void getDetails();	
+}
+//
+interface StudentService{
+	
+	public void getDetails();
+}
+abstract class StudentCls2{
+	
+	abstract void getDetails2();
+	
+}
+class StdImplemntCls implements StudentService
+{
+	@Override
+	public
+	void getDetails() {
+		System.out.println("Interface is implementing");	
+	}
+}
+public class InterfaceAbstractDemo {
+
+	public static void main(String args[]){
+		StdImplemntCls cls=new StdImplemntCls();
+		cls.getDetails();
+	}
+	
+}
