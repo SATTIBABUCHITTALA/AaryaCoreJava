@@ -1,0 +1,52 @@
+try{
+100 lines 
+40 thline
+
+
+60 more lines are theree in class 
+
+
+
+}
+catch(Exception ec){
+
+}
+// Compile time exception
+// Runtime Exception
+
+finally{
+
+
+}
+
+Collections:- 
+
+
+Arrays:- 
+Collection of Data same data. int ---it will take integer.... static if i mention 10 variable it will take only 10 variables.
+int [] list=new int[10];
+
+static--limited
+dynamic---- unlimited
+
+
+Collections came into picture... Collection is also an interface which has multiple method declarations
+
+Collection interface has multiple implemented classes
+
+interface A{
+void getA();
+
+
+}
+class B implements A{
+
+}
+
+
+
+
+
+
+
+
